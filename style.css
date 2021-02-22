@@ -5,7 +5,6 @@ body {
 kbd {
     background: white;
     display: inline-block;
-    height: 40vh;
     border: 3px solid rgb(66, 66, 66);
     border-radius: 5px;
     margin-left: 0px;
@@ -18,16 +17,38 @@ kbd {
     flex: 1 1 10%;
 }
 
-.container {
+.black-keys, .white-keys {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 100vh;
     margin: 0 auto;
     padding: 1%;
     max-width: 75vw;
     
 }
 
+.bkeys {
+    height: 30vh;
+    z-index: 2;
+    background-color: black;
+    color: white;
+    flex: 1 0 10px;
+    
+}
 
+.keys {
+    height: 40vh;
+    z-index: 1; 
+}
+
+.container {
+    height: 50vh;
+}
+
+.hidden {
+    height: 0;
+    width: 0;
+    border: none;
+    background-color: none;
+}
