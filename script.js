@@ -10,7 +10,7 @@ document.addEventListener('keydown', e => {
         audioObject.play();
     }
     //error alert
-    else if (!validKeys.includes(keyPressed)) {
-        alert('Please press a valid key!')
-    };
-    })
+    // else if (!validKeys.includes(keyPressed)) {
+    //     alert('Please press a valid key!')
+    // };
+    // })
