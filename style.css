@@ -1,0 +1,33 @@
+body {
+    background: rgb(255, 113, 156);
+}
+
+kbd {
+    background: white;
+    display: inline-block;
+    height: 40vh;
+    border: 3px solid rgb(66, 66, 66);
+    border-radius: 5px;
+    margin-left: 0px;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 10%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 1%;
+    max-width: 75vw;
+    
+}
+
+
