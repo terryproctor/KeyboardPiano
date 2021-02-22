@@ -7,7 +7,6 @@ kbd {
     border: 3px solid rgb(66, 66, 66);
     border-radius: 5px;
     margin-left: 0px;
-    cursor: pointer;
     font-family: cursive;
     font-size: 3rem;
     display: flex;
