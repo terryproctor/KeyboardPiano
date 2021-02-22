@@ -36,7 +36,7 @@ kbd {
 }
 
 .bkeys {
-    height: 30vh;
+    height: 28vh;
     max-width: 4%;
     z-index: 2;
     background-color: black;
