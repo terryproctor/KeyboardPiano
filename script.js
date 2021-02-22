@@ -12,5 +12,5 @@ document.addEventListener('keydown', e => {
     //error alert
     // else if (!validKeys.includes(keyPressed)) {
     //     alert('Please press a valid key!')
-    // };
-    // })
+    }
+    );
