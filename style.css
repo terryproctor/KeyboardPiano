@@ -23,6 +23,7 @@ kbd {
     margin: 0 auto;
     padding: 1%;
     max-width: 75vw;
+    cursor: pointer;
     
 }
 
@@ -35,8 +36,8 @@ kbd {
 }
 
 .bkeys {
-    height: 28vh;
-    max-width: 4%;
+    height: 33vh;
+    max-width: 5%;
     z-index: 2;
     background-color: black;
     color: white;
