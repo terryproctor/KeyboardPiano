@@ -21,5 +21,5 @@ piano.addEventListener('click', e => {
     let audioClicked = document.createElement("audio");
     audioClicked.src = `audio/${target}.mp3`;
     audioClicked.play();
-}
+},
 );
